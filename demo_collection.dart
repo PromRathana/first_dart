@@ -35,6 +35,7 @@ void main()
   };
   print(customerData); //{id: C001, name: Rathana, address: Phnom Penh}
   print(customerData['name']); //Rathana
+  print(customerData.keys); //(id, name, address)
 
   //Where is (homework)
 }
